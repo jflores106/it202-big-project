@@ -24,7 +24,7 @@
   document.querySelector("#searchButton").addEventListener("click", (event) => {
       let va = document.querySelector("#searchOp").value;
       let searchVal = va.toUpperCase();
-      let newUrl = url + "&primary_type=" + encodeURI(searchVal);
+      let newUrl = url + "?&primary_type=" + encodeURI(searchVal);
       console.log(newUrl);
       fetch(url).then(response => {
           return response.json()
