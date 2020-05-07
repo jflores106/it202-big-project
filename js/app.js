@@ -20,7 +20,7 @@
   })
 
    let apiEndpoint = "https://data.cityofchicago.org/resource/ijzp-q8t2.json";
-  let url = apiEndpoint + "?$LIMIT=5";
+  let url = apiEndpoint;
   document.querySelector("#searchButton").addEventListener("click", (event) => {
       let va = document.querySelector("#searchOp").value;
       let searchVal = va.toUpperCase();
