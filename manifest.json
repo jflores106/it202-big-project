@@ -1,0 +1,10 @@
+{
+    "name": "Crime Data",
+    "short_name": "Crime Data",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "white",
+    "theme_color": "blue",
+    "orientation": "portrait-primary"
+    
+}

@@ -1,0 +1,12 @@
+    :root {
+        --mdc-theme-primary: #4286A9;
+    }
+    body {
+        margin: 0px;
+    }
+    .view {
+        display: none;
+    }
+    #map {
+        height: 50%;
+      }
